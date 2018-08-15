@@ -1,0 +1,97 @@
+.social-card {
+  margin: 0px;
+  display: block;
+  width: 600px;
+  border-bottom: 1px lightgrey solid;
+}
+
+.user-icon {
+  width: 50px;
+  height: 50px;
+  margin: 2px 0px 0px 12px;
+  display: block;
+  float: left;
+}
+
+.user-icon img {
+  /* https://css-tricks.com/clipping-masking-css/ */
+  clip-path: circle(25px at center);
+  width: 50px;
+  height: 50px;
+}
+
+.card-content {
+  display: block;
+  width: 530px;
+  margin-top: 11px;
+  margin-left: 70px;
+}
+
+.card-header {
+  margin-left: 5px;
+}
+
+.user-name {
+  font-weight: bold;
+  font-size: 11pt;
+  padding-top: 2px;
+}
+
+.user-account {
+  font-size: 11pt;
+  padding-top: 2px;
+  color: grey;
+  margin-left: 3px;
+}
+
+.card-date {
+  font-size: 11pt;
+  padding-top: 2px;
+  color: grey;
+  margin-left: 5px;
+}
+
+.card-header-description {
+  font-size: 11pt;
+  margin-top: 5px;
+}
+
+.card-header-author {
+  font-size: 10pt;
+  color: grey;
+  margin-top: 5px;
+}
+
+.card-image-box {
+  height: 361px;
+  border: 1px solid lightgray;
+  margin-top: 13px;
+  margin-right: 11px;
+  border-radius: 5px;
+}
+
+.card-main-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.caption-title {
+  font-weight: bold;
+  margin-left: 16px;
+}
+
+.caption-text {
+  margin-top: 5px;
+  margin-left: 16px;
+}
+
+.caption-footer {
+  margin-top: 5px;
+  margin-left: 16px;
+  color: grey;
+}
+
+.social-media-footer {
+  height: 50px;
+}
